@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+  
+  body {
+    margin: 0px;
+  }
+  body * {
+    box-sizing: border-box;
+  }
+  button {
+    width: 207px;
+    height: 51px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    border: 1px solid #E3B873;
+    background: #E3B873;
+    box-shadow: 0px 5px 15px 0px rgba(227, 184, 115, 0.30);
+    color: #FFF;
+    text-align: center;
+    font-family: Nunito Sans;
+    font-size: 11px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+
+    &:hover {
+      cursor: pointer;
+      transform: scaleY(1.1);
+      transition: 0.5px;
+    }
+  }
+  .container {
+    margin: 0 auto;
+    max-width: 1256px;
+  }
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  h1 {
+    color:#E3B873;
+    font-family: Yeseva One;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.6%;
+  }
+  h2 {
+    color: #E3B873;
+    font-family: Yeseva One;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.6%; 
+    text-transform: uppercase;
+  }
+  p {
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 400;
+  }
+  ul {
+    padding: 0;
+  }
+  .text_color {
+    color: #E3B873;
+  }
+  a:hover  {
+    text-decoration: underline;
+    color: #E3B873;
+  }
+ main {
+    margin: 0;
+  }
+.section-1__projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 700px;
+    background: #131313;
+  }    
+  .projects {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+  }
+  .projects__in-cityes {
+    width: 442px;
+    height: 482px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 55px;
+  }
+  .projects__h1 {
+    letter-spacing: -1.89px;
+  }
+  .projects__p1 {
+    margin-top: 34px;
+    font-size: 14px;
+    line-height: 190.96%;
+  }
+  .projects_p {
+    font-size: 13px;
+    line-height: 163.68%;
+  }
+  .in-cityes__list {
+    display: none;
+  }
+  .projects__list {
+    margin-top: 42px;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    gap: 34px;
+  }
+  .projects__list .list__item {
+    width: 200px;
+  }
+  .list__item  {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+  }
+  .projects__svg {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+  }
+  .projects__svg_circle {
+    width: 10px;
+    height: 10px;
+    background: #FFF;
+    opacity: 0.5;
+    border-radius: 100%;
+  }
+  .circle_color {
+    opacity: 1;
+  }
+  .projects__svg_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    background: none;
+    border: none;
+    box-shadow: none;
+  }
+  .projects__block {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    margin-top: 65px;
+  }
+  .nav__list {
+    padding-left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .projects_link_size {
+    color: rgba(255, 255, 255, 0.30);
+    font-size: 14px;
+    line-height: 138.6%;
+    text-transform: uppercase;
+  }  
+  .projects__img {
+    width: 679px;
+    height: 482px;
+    flex-shrink: 0;
+  }
+
