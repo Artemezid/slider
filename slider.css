@@ -25,7 +25,7 @@
 
     &:hover {
       cursor: pointer;
-      transform: scaleY(1.1);
+      transform: scaleY(1.5);
       transition: 0.5px;
     }
   }
@@ -78,7 +78,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 700px;
+    height: 1000px;
     background: #131313;
   }    
   .projects {
@@ -115,7 +115,7 @@
     flex-wrap: wrap;
     gap: 34px;
   }
-  .projects__list .list__item {
+  .projects__list .list__text {
     width: 200px;
   }
   .list__item  {
@@ -137,7 +137,7 @@
     opacity: 0.5;
     border-radius: 100%;
   }
-  .circle_color {
+  .projects__svg_circle[data-active] {
     opacity: 1;
   }
   .projects__svg_button {
@@ -167,9 +167,12 @@
     line-height: 138.6%;
     text-transform: uppercase;
   }  
-  .projects__img {
+  .projects__img, .image{
+    background-image:url("https://img.favcars.com/mini/hatch/mini_hatch_2010_wallpapers_14_1280x960.jpg");
     width: 679px;
     height: 482px;
     flex-shrink: 0;
+    background-size: cover;
+    background-position: center center;
   }
 
