@@ -110,10 +110,13 @@
   }
   .projects__list {
     margin-top: 42px;
-    display: flex;
+    display: none;
     flex-direction:row;
     flex-wrap: wrap;
     gap: 34px;
+  }
+  .projects__list.listActive {
+    display: flex;
   }
   .projects__list .list__text {
     width: 200px;
@@ -136,8 +139,9 @@
     background: #FFF;
     opacity: 0.5;
     border-radius: 100%;
+    cursor: pointer;
   }
-  .projects__svg_circle[data-active] {
+  .projects__svg_circle.active {
     opacity: 1;
   }
   .projects__svg_button {
@@ -173,6 +177,7 @@
     height: 482px;
     flex-shrink: 0;
     background-size: cover;
-    background-position: center center;
   }
-
+.activeTitle {
+  color: #E3B873;
+}
